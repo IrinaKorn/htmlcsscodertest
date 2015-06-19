@@ -362,12 +362,14 @@ li{
     width: 100%;
     height: 100%;
     background: #5B5;
+
     border: 15px solid transparent;
-  -webkit-border-image: -webkit-linear-gradient(#bfb 0%, #5B5 15%, #5B5 85%, #3A3 100%);
-  -webkit-border-image: -o-linear-gradient(#bfb 0%, #5B5 15%, #5B5 85%, #3A3 100%);
-  -webkit-border-image: linear-gradient(#bfb 0%, #5B5 15%, #5B5 85%, #3A3 100%);
-  -o-border-image: -o-linear-gradient(#bfb 0%, #5B5 15%, #5B5 85%, #3A3 100%);
-  border-image: linear-gradient(#bfb 0%, #5B5 15%, #5B5 85%, #3A3 100%); 15% stretch;
+    border-image: linear-gradient(
+    #bfb 0%, 
+    #5B5 15%,
+    #5B5 85%,
+    #3A3 100% 
+    ) 15% stretch;
  }
 .gradientSecondary {
     position: absolute;
